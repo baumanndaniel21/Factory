@@ -4,5 +4,7 @@ public class Main {
     public static void main(String[] args) {
         FabricaVW golf = new LinhaMontagemGolf();
         golf.testarCarro();
+        FabricaVW fusca1 = new LinhaMontagemFusca();
+        fusca1.testarCarro();
     }
 }
